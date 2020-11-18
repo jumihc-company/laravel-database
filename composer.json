@@ -1,0 +1,26 @@
+{
+    "name": "jmhc/laravel-database",
+    "description": "Laravel database.",
+    "keywords": [
+        "jmhc",
+        "laravel",
+        "database"
+    ],
+    "homepage": "http://jumihc.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jumihc",
+            "email": "jumihuchuang@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jmhc\\Database\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "jmhc/laravel-support": "^8.0"
+    }
+}
